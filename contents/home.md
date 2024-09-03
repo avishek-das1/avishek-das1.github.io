@@ -1,6 +1,6 @@
 
 
-[![avishek-das1](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/avishek-das1)
+[![avishek-das1](https://img.shields.io/badge/avishek-das1-github-blue?logo=github)](https://github.com/avishek-das1)
 
 Postdoctoral researcher working on the the physics of life, at AMOLF, Amsterdam
 
