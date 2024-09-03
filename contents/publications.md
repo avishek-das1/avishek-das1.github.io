@@ -1,1 +1,1 @@
-- <strong>A. Das</strong> and P. R. ten Wolde (2024). Exact computation of Transfer Entropy with Path Weight Sampling. <strong>Under Review.</strong> [[pdf]](https://avishek-das1.github.io/pdfs/tepws.pdf)
+- <strong>A. Das</strong> and P. R. ten Wolde (2024). Exact computation of Transfer Entropy with Path Weight Sampling. <strong>arXiv</strong> [[pdf]](https://avishek-das1.github.io/pdfs/tepws.pdf)
