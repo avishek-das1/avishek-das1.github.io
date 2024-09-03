@@ -1,2 +1,2 @@
 # avishekdas.github.io
-Researcher on the physics of life @AMOLF
+Postdoctoral researcher @AMOLF working on the physics of life
