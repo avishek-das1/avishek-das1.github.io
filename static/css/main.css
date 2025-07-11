@@ -10,6 +10,14 @@
     z-index: 10000;
 }
 
+.nav-link {
+  color: #52c71f /*!important;  use !important if it's being overridden */
+}
+
+#page-top-title {
+  color: #52c71f !important;
+}
+
 .bg-bottom {
     background-color: var(--h-title-color);
 }
