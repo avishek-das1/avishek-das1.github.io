@@ -12,10 +12,12 @@
 
 .nav-link {
   color: #40a215 !important; /* use !important if it's being overridden */
+  font-size: 1.2rem !important;
 }
 
 #page-top-title {
   color: #40a215 !important;
+  font-size: 1.2rem !important;
 }
 
 .bg-bottom {
