@@ -13,3 +13,6 @@ a.das@amolf.nl
 #### Education
 Ph. D., University of California Berkeley, United States, 2017—2022.\
 B. Sc. (Research), Indian Institute of Science, Bangalore, India, 2013—2017.
+
+#### CV
+[[pdf]](https://avishek-das1.github.io/pdfs/cv-full.pdf)
