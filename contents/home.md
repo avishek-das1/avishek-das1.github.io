@@ -1,8 +1,8 @@
-What makes a collection of chemical reactions into a living organism?
+- What makes a collection of chemical reactions into a living organism?
 
-How do biological cells perceive and manipulate their noisy world?
+- How do biological cells perceive and manipulate their noisy world?
 
-How does chemistry and diffusion come together to create meaningful spatiotemporal patterns?
+- How does chemistry and diffusion come together to create _meaningful_ spatiotemporal patterns?
 
 These are the core questions that fuel my research in the information processing of soft and biological matter. I strive to answer these through fundamental theory in statistical physics and information theory, through the development of novel numerical algorithms, and by collaboration with experimentalists who characterize and design intelligent matter. We only fully understand how something works if we can make a working prototype from scratch in the lab!
 
