@@ -4,7 +4,7 @@
 
 - How does chemistry and diffusion come together to create _intelligent_ spatiotemporal patterns?
 
-These are the core questions that fuel my research in the information processing of soft and biological matter. I strive to answer these through fundamental theory in statistical physics and information theory, through the development of novel numerical algorithms, and by collaboration with experimentalists who characterize and design intelligent matter. I believe we only fully understand how something works if we can make a working prototype from scratch in the lab.
+These are the core questions that fuel my research in the information processing of soft and biological matter. I strive to answer these through fundamental theory in statistical physics and information theory, through the development of novel numerical algorithms, and by collaboration with experiments for characterizing and designing intelligent matter.
 
 Currently in my **postdoctoral research** in the group of [Prof. Pieter Rein ten Wolde](https://amolf.nl/research-groups/biochemical-networks) at AMOLF, I am exploring the behavioral similarity between motile bacteria, and synthetic microrobots that would optimally climb up the gradient of a chemical signal. Using the framework of information theory, we are developing novel theoretical, numerical and experimental techniques to quantify the directional information processing in general biochemical networks, and specifically for stochastic navigators. As an end goal we ask: how exactly does information act as a currency in the design of an autonomous navigator? Do biological navigators optimally use their acquired information?
 
