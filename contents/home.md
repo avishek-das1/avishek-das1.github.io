@@ -20,7 +20,7 @@ Information processing in soft matter, Biophysics of cellular motility, Nonequil
 #### Email
 a.das@amolf.nl
 
-avishek_das@berkeley.edu
+avishek0d@gmail.com
 
 #### Education
 Ph. D., University of California Berkeley, United States, 2017—2022.\
