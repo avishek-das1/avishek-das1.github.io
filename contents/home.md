@@ -1,4 +1,4 @@
-**I will join the Department of Physics at Durham University as an Assistant Professor in Condensed Matter Physics from June 2026. My group will work towards understanding and designing the information processing in soft matter through the combination of chemical and mechanical motifs. More information on vacancies coming soon.**
+**UPDATE: I will join the Department of Physics at Durham University as an Assistant Professor in Condensed Matter Physics from June 2026. My group will work towards understanding and designing the information processing in soft matter through the combination of chemical and mechanical motifs. More information on vacancies coming soon.**
 
 - What makes a collection of chemical reactions into a living organism?
 
