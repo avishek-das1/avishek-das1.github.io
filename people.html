@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Das Group | People</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ════════════════════════════════════════ -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Das Group</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="people.html" class="active">People</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE CONTENT ══════════════════════════════════════ -->
+  <div class="wrap">
+
+    <div class="page-header">
+      <h1>People</h1>
+    </div>
+
+    <!-- REPLACE: recruiting message (remove if not yet a PI) -->
+    <p class="people-intro">
+      We are actively recruiting graduate students, postdocs, and undergraduate researchers.
+      We welcome applicants with backgrounds in theoretical physics, including
+      [your relevant areas — statistical mechanics, field theory, etc.].
+      Please see the <a href="contact.html">Contact</a> page to get in touch.
+    </p>
+
+    <!-- ── PI card ────────────────────────────────────────── -->
+    <div class="person-card">
+      <div class="person-photo">
+        <!-- REPLACE: add your photo at assets/img/photo.jpg and
+             uncomment the <img> tag; delete the placeholder div -->
+        <div class="person-photo-placeholder">assets/img/<br>photo.jpg</div>
+        <!-- <img src="assets/img/photo.jpg" alt="Avishek Das"> -->
+      </div>
+      <div class="person-info">
+        <!-- REPLACE: your name -->
+        <h2>Avishek Das</h2>
+        <!-- REPLACE: your role and institution -->
+        <p class="person-role">[Assistant / Associate] Professor of Physics &middot; [Your University]</p>
+
+        <!-- REPLACE: your CV highlights (education, positions) -->
+        <ul class="cv-list">
+          <li>[Postdoc role], [Institution], [Years]</li>
+          <li>Ph.D., [Institution], [Year]</li>
+          <li>B.S./M.Sc., [Institution], [Year]</li>
+        </ul>
+
+        <!-- REPLACE: short bio (2–4 sentences) -->
+        <p class="person-bio">
+          [A brief bio — research interests, approach, and what drives your work.
+          You can mention prior positions, awards, or collaborations here.
+          This can be 2–4 sentences long.]
+        </p>
+
+        <!-- REPLACE: your links -->
+        <p style="margin-top:16px; font-size:.9rem;">
+          <a href="mailto:your@email.com">your@email.com</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://scholar.google.com" target="_blank">Google Scholar</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://github.com/avishek-das1" target="_blank">GitHub</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Postdoc slot (open / filled) ──────────────────── -->
+    <div class="person-card">
+      <div class="person-photo">
+        <!-- Leave placeholder or add photo when filled -->
+        <div class="person-photo-placeholder">Open<br>Position</div>
+      </div>
+      <div class="person-info">
+        <h2>Open Position</h2>
+        <p class="person-role">Postdoctoral Researcher</p>
+        <p class="person-bio">
+          Interested in joining? Please <a href="contact.html">reach out</a> to learn about
+          current openings and the application process.
+        </p>
+      </div>
+    </div>
+
+    <!-- ── Graduate student slot ──────────────────────────── -->
+    <div class="person-card">
+      <div class="person-photo">
+        <div class="person-photo-placeholder">Open<br>Position</div>
+      </div>
+      <div class="person-info">
+        <h2>Open Position</h2>
+        <p class="person-role">Graduate Student</p>
+        <p class="person-bio">
+          We welcome PhD applicants with a strong background in physics or related fields.
+          Please apply through [Your University] graduate admissions and mention your interest
+          in our group.
+        </p>
+      </div>
+    </div>
+
+    <!--  TO ADD A REAL GROUP MEMBER, duplicate this block:
+
+    <div class="person-card">
+      <div class="person-photo">
+        <img src="assets/img/MEMBERNAME.jpg" alt="Member Name">
+      </div>
+      <div class="person-info">
+        <h2>Member Name</h2>
+        <p class="person-role">Ph.D. Student / Postdoc / etc.</p>
+        <ul class="cv-list">
+          <li>B.S., Institution, Year</li>
+        </ul>
+        <p class="person-bio">
+          [Short bio / research interests.]
+        </p>
+        <p style="margin-top:16px; font-size:.9rem;">
+          <a href="mailto:member@university.edu">member@university.edu</a>
+        </p>
+      </div>
+    </div>
+
+    -->
+
+  </div><!-- /wrap -->
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-copy">
+        &copy; 2025 Das Research Group &middot; Department of Physics &middot; [Your University]
+      </span>
+      <div class="footer-links">
+        <a href="mailto:your@email.com">Email</a>
+        <a href="https://github.com/avishek-das1" target="_blank">GitHub</a>
+        <a href="https://scholar.google.com" target="_blank">Scholar</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>

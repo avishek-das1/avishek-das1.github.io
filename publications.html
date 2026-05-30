@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Das Group | Publications</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ════════════════════════════════════════ -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Das Group</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html" class="active">Publications</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE CONTENT ══════════════════════════════════════ -->
+  <div class="wrap">
+
+    <div class="page-header">
+      <h1>Publications</h1>
+      <p class="subtitle">
+        <!-- REPLACE: notation conventions, e.g. authorship symbols -->
+        &dagger; equal contributions &nbsp;&nbsp; * corresponding author
+      </p>
+    </div>
+
+    <!-- REPLACE: your Google Scholar URL -->
+    <p class="pub-google-link">
+      Latest updates can be found on
+      <a href="https://scholar.google.com/citations?user=YOURID" target="_blank"><strong>Google Scholar</strong></a>.
+    </p>
+
+    <!-- ── Preprints ──────────────────────────────────────── -->
+    <div class="pub-section">
+      <h2>Preprints</h2>
+      <ul class="pub-list">
+
+        <!-- REPLACE: copy this block for each preprint -->
+        <li class="pub-entry">
+          <span class="pub-n">P1</span>
+          <div>
+            <p class="pub-title">
+              <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank">
+                [Paper title]
+              </a>
+            </p>
+            <p class="pub-authors">
+              <strong>A. Das</strong>, Co-author Name, Co-author Name
+            </p>
+            <p class="pub-venue">arXiv:XXXX.XXXXX (Year)</p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- ── Published ─────────────────────────────────────── -->
+    <div class="pub-section">
+      <h2>Published</h2>
+      <ul class="pub-list">
+
+        <!--  HOW TO USE:
+              • Number from most recent downward (or pick any scheme).
+              • pub-n  = number or label in left gutter
+              • pub-title links to the DOI / journal page
+              • pub-authors: wrap your name in <strong>...</strong>
+              • pub-venue: journal, year, volume, page
+              • Add <span class="pub-tag">Featured</span> inside pub-venue for highlights
+              • Duplicate the <li class="pub-entry"> block for each paper
+        -->
+
+        <!-- Example entry 1 (most recent) -->
+        <li class="pub-entry">
+          <span class="pub-n">1</span>
+          <div>
+            <p class="pub-title">
+              <a href="https://doi.org/10.XXXX/XXXXX" target="_blank">
+                [Paper title — most recent first]
+              </a>
+            </p>
+            <p class="pub-authors">
+              <strong>A. Das</strong>, Co-author A, Co-author B
+            </p>
+            <p class="pub-venue">
+              <em>Journal Name</em> Year, Volume, Pages
+              <span class="pub-tag">Editors' Pick</span>
+            </p>
+          </div>
+        </li>
+
+        <!-- Example entry 2 -->
+        <li class="pub-entry">
+          <span class="pub-n">2</span>
+          <div>
+            <p class="pub-title">
+              <a href="https://doi.org/10.XXXX/XXXXX" target="_blank">
+                [Paper title]
+              </a>
+            </p>
+            <p class="pub-authors">
+              Co-author A, <strong>A. Das</strong>&dagger;, Co-author B&dagger;
+            </p>
+            <p class="pub-venue">
+              <em>Journal Name</em> Year, Volume, Pages
+            </p>
+          </div>
+        </li>
+
+        <!-- Example entry 3 -->
+        <li class="pub-entry">
+          <span class="pub-n">3</span>
+          <div>
+            <p class="pub-title">
+              <a href="https://doi.org/10.XXXX/XXXXX" target="_blank">
+                [Paper title]
+              </a>
+            </p>
+            <p class="pub-authors">
+              <strong>A. Das</strong>, Co-author A
+            </p>
+            <p class="pub-venue">
+              <em>Journal Name</em> Year, Volume, Pages
+            </p>
+          </div>
+        </li>
+
+        <!-- Continue adding entries ... -->
+
+      </ul>
+    </div>
+
+  </div><!-- /wrap -->
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-copy">
+        &copy; 2025 Das Research Group &middot; Department of Physics &middot; [Your University]
+      </span>
+      <div class="footer-links">
+        <a href="mailto:your@email.com">Email</a>
+        <a href="https://github.com/avishek-das1" target="_blank">GitHub</a>
+        <a href="https://scholar.google.com" target="_blank">Scholar</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
